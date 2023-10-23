@@ -206,7 +206,7 @@ const handleClick1 = ()=>{
       onChange={handleChange1}
       className='cardDT'
       />
-      <p style={{color: 'red'}}>{errorText}</p>
+      <p style={{color: 'red'}}>{errorText1}</p>
       
       <br />
       <div className='dateCvv'>
@@ -225,7 +225,7 @@ const handleClick1 = ()=>{
       onChange={handleChange3}
       className='otrCardDT2'
       />
-      <p style={{color: 'red'}}>{errorText}</p>
+      <p style={{color: 'red'}}>{errorText2}</p>
       </div>
       <div>
       <label className='labelCVV' htmlFor="cVV">CVC</label>
@@ -236,7 +236,7 @@ const handleClick1 = ()=>{
       onChange={handleChange4}
       className='otrCardDT3'
       />
-      <p style={{color: 'red'}}>{errorText}</p>
+      <p style={{color: 'red'}}>{errorText3}</p>
 
       </div>
 
