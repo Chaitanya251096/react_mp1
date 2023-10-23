@@ -57,40 +57,35 @@ const handleChange1 =(e)=>{
  
       let isError = false
       if(inputText.length <= 0){
-          setErrorText('name input required');
+          setErrorText('Card number is required');
           isError = true
       }
       let isError1 = false
       if(inputText1.length <= 0){
-          setErrorText1('username input required');
+          setErrorText1('Card holder name is required');
           isError1 = true
        
       }
       let isError2 = false
       if(inputText2.length <= 0){
-          setErrorText2('email input required');
+          setErrorText2('Month and Year is required');
           isError2 = true
          
       }
       let isError3 = false
       if(inputText3.length <= 0){
-          setErrorText3(' valid mobile input required');
+          setErrorText3(' CVC required');
           isError3 = true
          
       }
-      let isError4 = false
-      if(inputText.length <= 0){
-          setErrorText4('please check the check box');
-          isError4 = true
-         
-      }
+      
      
   
       return isError;
       return isError1;
       return isError2;
       return isError3;
-      return isError4;
+     
   
   
       
