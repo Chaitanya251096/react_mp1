@@ -1,38 +1,174 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+*{
+  margin: 0px;
+  /* overflow-x: hidden; */
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.backOne{
+  width: 30vw;
+  height: 100vh;
+  background-image: url("C:/Users/ACER/Desktop/myapp/myapp/src/images/Group 2.png");
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
+}
+
+.frontCard{
+  width: 420px;
+  height: 250px;
+  background-image: url("C:/Users/ACER/Desktop/myapp/myapp/src/images/Frame 4.png");
+  margin-top: 70px;
+  margin-left: 50px;
+  /* box-shadow: 0px 0px 10px  */
+ 
+  
+}
+
+
+.logo{
+  height: 50px;
+  width:50px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding:20px;
+}
+.logo2{
+  height: 40px;
+  width:40px;
+  background-color:purple;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+#cardNum{
+  margin-top: 15px;
+  margin-left: 150px;
+  font-size: 25px;
+}
+.cardPart1{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family:'Roboto', sans-serif;
+  color: white
+  ;
+}
+.cardPart2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+
+
+
+
+.backCard{
+  background-image: url("C:/Users/ACER/Desktop/myapp/myapp/src/images/Group 6.jpg");
+  width: 425px;
+  height: 250px;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-left: 100px;
+  /* box-shadow: 0px 0px 10px ; */
+}
+
+#cVV{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 125px;
+  margin-left: 370px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.backTwo{
+
+  width: 60vw;
+  height: 100vh;
+  background-color: beige ;
+  float: right;
+}
+
+
+.dateCvv{
+  display: flex;
+  font-family:'Space Grotesk', sans-serif;
+}
+
+.formDetail{
+  width: 600px;
+  height: 250px;
+  margin-top: 150px;
+  margin-left: 150px;
+  font-family:'Space Grotesk', sans-serif;
+  display: block;
+}
+
+
+
+.cardDT{
+  font-family:'Space Grotesk', sans-serif ;
+  height: 25px;
+  width: 400px;
+  margin-top: 5px;
+}
+.otrCardDT1{
+width: 75px;
+height: 25px;
+margin-top: 5px;
+font-family:'Space Grotesk', sans-serif;
+}
+
+.otrCardDT2{
+width: 75px;
+height: 25px;
+margin-left: 10px;
+margin-top: 5px;
+font-family:'Space Grotesk', sans-serif;
+  
+}
+
+.labelCVV{
+  margin-left: 20px;
+}
+
+.otrCardDT3{
+  margin-left: 20px;
+  width: 205px;
+  height: 25px;
+  margin-top: 5px;
+  font-family:'Space Grotesk', sans-serif;
+  
+}
+
+button{
+  margin-top: 5px;
+  width: 410px;
+  height: 50px;
+  border: none;
+  box-shadow: 0px 0px 10px;
+  border-radius: 10px;
+  background-color: #220930;
   color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sucMsg{
+  width: 500px;
+  height: 200px;
+  display: block;
+  margin-left: 200px;
+  margin-bottom: 200px;
+
 }
